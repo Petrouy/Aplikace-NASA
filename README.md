@@ -26,9 +26,9 @@ Petr Barvík
     *  Zobrazení aplikace pouze na jednom zařízení
 * Požadavky na rozhraní
   * Uživatelské rozhraní
-    * Xamarin
+    * Android aplikace
   * Softwarová rozhraní
-    * Microsoft Windows
+    * Android
 * Vlastnosti systému
   * Spuštění aplikace
     * Vstup: -
