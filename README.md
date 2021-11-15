@@ -14,7 +14,7 @@ Petr Barvík
 
   * Funkce
     * Aplikace bude zobrazovat informace o tělesech v blízkosti Země.
-    * Aplikace bude tímto vědět, jaké objekty se pohybují v okolí Země
+    * Uživatel bude tímto vědět, jaké objekty se pohybují v okolí Země
     * Program nebude ukládat data o uživateli
     * Aplikace bude zpracovávat otevřená data NASA ve formě JSON API
     * Tyto data se budou aktualizovat při dostupném datovém připojení
