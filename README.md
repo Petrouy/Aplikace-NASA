@@ -49,3 +49,33 @@ Petr Barvík
 
 
 ## Funkční specifikace
+Verze 1.0.0
+
+* Úvod
+  * Účel dokumentu
+    * Účelem je vytvoření Android aplikace, která bude zobrazovat objekty v blízkosti Země
+  * Kontakty
+    * Barvík Petr | barvik.petr.2018@---.cz | tel. 111 111 111
+* Scénáře
+  * Způsoby použití
+    * Uživatel má možnost vidět v aplikaci objekty v blízkosti Země
+    * Následně aplikace aktualizuje daná data o objektech, bez nutného vstupu uživatele
+  * Typy uživatelských rolí - Personas
+    * Všichni uživatelé mají stejné práva
+  * Příklad
+    * Uživatel spustí aplikaci a aplikace sama ukáže dané informace o objektech
+    * Následně aplikace sama aktualizuje data, pokud bude navázané připojení k internetu
+  * Vymezení rozsahu
+    * Program nebude posílat žádné data na internet, ani do cloudového úložiště
+    * Aplikace avšak bude stahovat data pomocí JSON API z NASA serverů
+* Celková hrubá architektura
+  * Pracovní tok
+    * Uživatel spustí aplikaci
+    * Aplikace se spojí s NASA servery pomocí JSON API
+    * Aplikace zobrazí informace o objektech v blízkosti Země
+  * Všechny detaily
+    * Aplikace se bude skládat z jednoho hlavního okna
+    * Výpis informací
+      * Seznam objektů a jejich informací
+      * Bude záležet, kolik objektů aplikace zobrazí
+
